@@ -31,6 +31,9 @@ Personal Info
 	•	LinkedIn: linkedin.com/in/joão-henrique-menezes-boia
 	•	GitHub: github.com/JoaoHenriqueRX7
 	•	Email: joaohenrique@jhbdev.com.br
+	•	Resume:
+		•	View/Share Link: https://drive.google.com/file/d/1ldkyVVZuhhpBKVHkqstrtl5AdBOjLb2M/view?usp=share_link
+		•	Direct Download Link: https://drive.google.com/uc?export=download&id=1ldkyVVZuhhpBKVHkqstrtl5AdBOjLb2M
 
 ⸻
 
