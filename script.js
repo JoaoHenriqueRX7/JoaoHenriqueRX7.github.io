@@ -108,14 +108,14 @@ Oráculo (Aya)
 	•	Architected, led and developed a scalable multi-agent LLM platform
 	•	Stack: Python, FastAPI, RAG (vector DB), Supabase, PostgreSQL, Docker, AWS
 	•	Features: Multi-tenant chat, admin interface, streaming responses, integration with OpenAI/Anthropic LLMs, knowledge ingestion from PDF, DOCX, images (custom pipelines), agent configuration per tenant, custom system and RAG prompts, full admin/user RBAC and audit trails.
-	•	Showcase Repo
+	•	Showcase Repo: https://github.com/JoaoHenriqueRX7/oraculo-Showcase
 
 Chat ESX 2024 (Aya/Sebrae)
 	•	Led delivery of the official chatbot for ESX 2024 (Espírito Santo Innovation Experience)
 	•	Stack: Python (backend/pipeline), JS (frontend), OpenAI GPT-4o, Whisper (audio), Guardrails, QA loop
 	•	Automated transcription of >100 hours of event lectures via Whisper and chunking, generated searchable docs, ingested into a RAG knowledge base, trained LLM for context-aware responses
 	•	Users could ask for any info about the event (programming, speakers, locations, food, past talks)
-	•	Demo video, Live bot
+	•	Demo video: https://www.youtube.com/watch?v=G4jBW9LdPQs Live bot is not available anymore.
 
 AI Sales Agent (Aya/Whoopee/Match)
 	•	LLM-powered agent to triage and qualify WhatsApp leads for Match (recruitment)
@@ -126,13 +126,13 @@ Celesta Royalties Visualization + AI Insights (Whoopee)
 	•	Dashboard + backend for mining royalties (Celesta Mining, Pará)
 	•	Real-time financial metrics, AI-powered insights, operational dashboards, voice and text Q&A
 	•	Stack: React, Vite, Tailwind, FastAPI, PostgreSQL, SQLAlchemy, RAG, Docker, AWS, JWT
-	•	Showcase Repo
+	•	Showcase Repo: https://github.com/JoaoHenriqueRX7/RoyaltiesVisualization-Showcase
 
 Stone-AI for Amagran (Whoopee)
 	•	Conversational AI backend for a granite company
 	•	Each stone “persona” gets its own voice using ElevenLabs + LLMs
 	•	Stack: Python (FastAPI), JWT auth, persona config, low-latency API, future extensibility for vision/image overlay
-	•	Showcase Repo
+	•	Showcase Repo: https://github.com/JoaoHenriqueRX7/stone-ai-Showcase
 
 ETL & Data Engineering
 	•	ETL pipelines for data extraction (Python, BeautifulSoup, requests), transformation (pandas, numpy), and loading to relational DBs (MySQL, PostgreSQL)
