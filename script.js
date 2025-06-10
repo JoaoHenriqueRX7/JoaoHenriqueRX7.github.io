@@ -311,7 +311,6 @@ async function sendMessageToGemini(message) {
   }
 
 
-  // Add user message to history
   conversationHistory.push({ role: "user", parts: [{ text: message }] });
 
   // Display a loading indicator or similar while waiting for response
@@ -374,15 +373,13 @@ async function sendMessageToGemini(message) {
     // --- End Placeholder ---
 
 
-    // Remove loading indicator
     chatWindow.removeChild(loadingMsg);
 
-    // Add bot message to history
     conversationHistory.push({ role: "model", parts: [{ text: botResponseText }] });
 
     // Display bot message with Markdown rendering
     const botMsg = document.createElement('div');
-    botMsg.classList.add('message', 'bot', 'message-glitch'); // Add message-glitch class
+    botMsg.classList.add('message', 'bot', 'message-glitch');
     // Wrap the Markdown output in a div to better control layout within the flex container
     const markdownContentDiv = document.createElement('div');
     markdownContentDiv.innerHTML = marked.parse(botResponseText);
@@ -390,10 +387,9 @@ async function sendMessageToGemini(message) {
     chatWindow.appendChild(botMsg);
     chatWindow.scrollTop = chatWindow.scrollHeight;
 
-    // Remove glitch class after a delay
     setTimeout(() => {
       botMsg.classList.remove('message-glitch');
-    }, 1000); // Glitch for 1 second (adjust as needed)
+    }, 1000);
 
   } catch (error) {
     console.error('Error sending message to Gemini:', error);
@@ -477,3 +473,19 @@ function applyRandomGlitch() {
 }
 
 setInterval(applyRandomGlitch, 2500);
+
+document.addEventListener('DOMContentLoaded', () => {
+  const container = document.querySelector('.container');
+  const mobileChatIcon = document.querySelector('.mobile-chat-icon');
+  const mobileBackButton = document.querySelector('.mobile-back-button');
+
+  if (mobileChatIcon && mobileBackButton && container) {
+    mobileChatIcon.addEventListener('click', () => {
+      container.classList.add('chat-visible');
+    });
+
+    mobileBackButton.addEventListener('click', () => {
+      container.classList.remove('chat-visible');
+    });
+  }
+});
