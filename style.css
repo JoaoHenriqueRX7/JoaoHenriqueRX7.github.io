@@ -188,8 +188,6 @@ svg {
   transition: filter 0.3s ease-out, opacity 0.3s ease-out;
 }
 
-/* Custom Scrollbar Styles */
-/* For Webkit browsers (Chrome, Safari) */
 ::-webkit-scrollbar {
   width: 8px; /* Width of the scrollbar */
 }

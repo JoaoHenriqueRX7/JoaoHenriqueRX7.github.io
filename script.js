@@ -437,7 +437,7 @@ document.addEventListener('DOMContentLoaded', () => {
   const body = document.body;
   setTimeout(() => {
     body.classList.remove('initial-glitch');
-  }, 3000);
+  }, 1000); // Reduced initial glitch duration to 1 second
 });
 
 const initialBotMessage = "Welcome! You can ask me anything about my professional life, skills, or projects.";
