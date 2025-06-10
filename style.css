@@ -922,7 +922,6 @@ aside.chat {
     grid-template-columns: 1fr;
     grid-template-rows: 1fr;
     position: relative;
-    overflow: hidden;
   }
 
   aside.sidebar {
