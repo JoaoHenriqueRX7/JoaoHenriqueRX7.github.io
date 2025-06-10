@@ -473,7 +473,7 @@ function applyRandomGlitch() {
 
   setTimeout(() => {
     elementToGlitch.classList.remove('random-glitch');
-  }, 700);
+  }, 350);
 }
 
-setInterval(applyRandomGlitch, 5000);
+setInterval(applyRandomGlitch, 2500);

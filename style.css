@@ -188,6 +188,37 @@ svg {
   transition: filter 0.3s ease-out, opacity 0.3s ease-out;
 }
 
+/* Custom Scrollbar Styles */
+/* For Webkit browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar */
+}
+
+::-webkit-scrollbar-track {
+  background: var(--bg-medium); /* Background of the scrollbar track */
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--neon-cyan); /* Color of the scrollbar thumb */
+  border-radius: 10px; /* Roundness of the scrollbar thumb */
+  border: 1px solid var(--border-secondary); /* Border around the thumb */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--neon-red); /* Color of the thumb on hover */
+}
+
+/* For Firefox */
+/* Note: Firefox uses different pseudo-elements and properties */
+/* This is a basic example, more complex styling might require JS */
+/*
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--neon-cyan) var(--bg-medium);
+}
+*/
+
 
 .sidebar-scrollable-area::-webkit-scrollbar-thumb {
   background: var(--neon-cyan);
