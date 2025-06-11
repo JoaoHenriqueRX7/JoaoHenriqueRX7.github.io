@@ -99,7 +99,7 @@ Whoopee LTDA (2024–Present)
 	•	Designed and modeled internal data infrastructure for deep metric analysis (LTV, CAC, ROI)
 	•	Developed multimodal LLM-powered sales agents (Langchain, Node.js, JS) — able to process WhatsApp leads, images, PDFs, integrate with Google Calendar, and support monitoring front-ends
 
-Angular Engenharia LTDA (2023)
+Angular Engenharia LTDA (2022–2024)
 	•	Focused on data visualization for financial flows using Power BI and Excel, automating complex reports and dashboards for internal teams and clients
   •	Worked on data extraction, transformation, and loading (ETL) pipelines using Python, pandas, and SQL
 
