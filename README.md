@@ -15,7 +15,7 @@ Welcome to the repository of my interactive portfolio, a cyberpunk-themed web ex
 
 1.  Clone this repository:
     ```bash
-    git clone <Your Repository URL>
+    git clone https://github.com/JoaoHenriqueRX7/JoaoHenriqueRX7.github.io
     ```
 2.  Navigate to the project directory:
     ```bash
